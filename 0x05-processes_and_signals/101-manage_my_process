@@ -1,0 +1,10 @@
+#!/bin/bash
+
+case "$1" in
+	start) /bin/bash ./manage_my_process start;;
+	stop) /bin/bash ./manage_my_process stop;;
+	restart) /bin/bash ./manage_my_process restart;;
+	*) echo "Usage: $0 {start|stop|restart}";exit 1;;
+esac
+
+exit $?

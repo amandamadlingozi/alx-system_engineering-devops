@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Find and terminate the 4-to_infinity_and_beyond process 
+# in the current terminal
+pkill -f "4-to_infinity_and_beyond" -t "$(tty)"

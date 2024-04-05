@@ -1,0 +1,10 @@
+#!/bin/bash
+
+case "$1" in
+    start) echo "manage_my_process started";
+./manage_my_process & echo $! > /var/run/my_process.pid;;
+    stop) echo "manage_my_process stopped";
+kill $(cat /var/run/my_process.pid);rm -f /var/run/my_process.pid;;
+    restart) $0 stop;sleep 2;$0 start;echo "manage_my_process restarted";;
+    *) echo "Usage: manage_my_process {start|stop|restart}";exit 1;;
+esac

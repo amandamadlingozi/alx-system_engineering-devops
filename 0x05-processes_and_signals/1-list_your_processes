@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# Display a list of currently running processes with high standard
+# use the ps command with specific output format and tree-like structure
+# and limit the output to the first 50 lines
+
+ps -e -o user,pid,%cpu,%mem,vsz,rss,tty,
+stat,start,time,comm --forest | head -50
