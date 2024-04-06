@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Find and terminate the 4-to_infinity_and_beyond process 
 # in the current terminal
