@@ -1,9 +1,8 @@
 #!/usr/bin/env bash
 
 # Get the PID of the script
-script_pid=$$
-
 # Repeat over all processes, extract PID and name,
 # seperate processes whose name contains "bash",
 # and exclude the script as well
-ps -eo pid,comm | awk -v script_pid="$script_pid" '$2 ~ /bash/ && $1 != script_pid { print $1, $2 }'
+
+pgrep -l bash

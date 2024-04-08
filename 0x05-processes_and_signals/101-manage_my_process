@@ -1,10 +1,28 @@
 #!/usr/bin/env bash
 
-case "$1" in
-	start) /bin/bash ./manage_my_process start;;
-	stop) /bin/bash ./manage_my_process stop;;
-	restart) /bin/bash ./manage_my_process restart;;
-	*) echo "Usage: $0 {start|stop|restart}";exit 1;;
-esac
+# Write "I am alive!" indefinately
+# to the file /tmp/my_process
+# Pause for 2 seconds between every "I am alive!" message.
 
-exit $?
+if [ "${1}" == "start" ]
+then
+	./manage_my_process &
+	touch /var/run/my_process.pid
+	echo "$!" > /var/run/my_process.pid
+	echo "manage_my_process started"
+elif [ "${1}" == "stop" ]
+then
+	echo "manage_my_process stopped"
+	kill "$(cat /var/run/my_process.pid)"
+	rm /var/run/my_process.pid
+elif [ "${1}" == "restart" ]
+then
+	kill "$(cat /var/run/my_process.pid)"
+	rm /var/run/my_process.pid
+	./manage_my_process &
+	touch /var/run/my_process.pid
+	echo "$!" > /var/run/my_process.pid
+	echo "manage_my_process restarted"
+else
+	echo "Usage: manage_my_process {start|stop|restart}"
+fi

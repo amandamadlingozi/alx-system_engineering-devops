@@ -1,12 +1,12 @@
 #!/usr/bin/env bash
 
-trap 'echo "I am invincible!!!"' SIGTERM
+#Displaying "Infinity and beyond" continually
+# Apply sleep 2 after each iteration
+# Display "I am invincible after each iteration"
 
-if [[ "$0" == *"7-highlander"* ]]; then
-	while true; do
-		echo "To infinity and beyond"
-		sleep 2
-	done
-else
-	pkill -SIGTERM -f "7-highlander"
-fi
+while true
+do
+	echo "To infinity and beyond"
+	sleep 2
+	trap 'echo "I am invincible!!!"' SIGTERM
+done
