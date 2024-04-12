@@ -1,0 +1,6 @@
+#Apply configuration settings globally to all hosts
+
+Host *
+PasswordAuthentication no
+
+IdentityFile ~/.ssh/school
