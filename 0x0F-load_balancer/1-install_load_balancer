@@ -1,54 +1,53 @@
 #!/usr/bin/env bash
 # Script to install and configure HAProxy to balance traffic between web-01 and web-02
+
 # Update package list and install HAProxy
 sudo apt-get update
 sudo apt-get install -y haproxy
 
 # Enable HAProxy to be managed via the system's service manager
 sudo systemctl enable haproxy
-sudo apt-get update
-sudo apt-get install -y haproxy
 
 # Configuration variables
 STUDENT_ID="276884"
-WEB_01="$ 276884-web-01"
-WEB_02="$ 276884-web-02"
+WEB_01="276884-web-01"
+WEB_02="276884-web-02"
 CONFIG_FILE='/etc/haproxy/haproxy.cfg'
 
 # Backup of the original HAProxy configuration file
-sudo cp $CONFIG_FILE ${CONFIG_FILE}.bak
+sudo cp "$CONFIG_FILE" "${CONFIG_FILE}.bak"
 
 # Generate HAProxy configuration
-cat << EOF | sudo tee $CONFIG_FILE
+cat << EOF | sudo tee "$CONFIG_FILE"
 global
-log /dev/log locall notice
-maxconn 2000
-user haproxy
-group haproxy
-daemon
+    log /dev/log local0 notice
+    maxconn 2000
+    user haproxy
+    group haproxy
+    daemon
 
 defaults
-log     global
-mode    http
-option  httplog
-option  dontlognull
-retries 3
-timeout connect 5000ms
-timeout client  50000ms
-timeout server  50000ms
+    log global
+    mode http
+    option httplog
+    option dontlognull
+    retries 3
+    timeout connect 5000ms
+    timeout client  50000ms
 
 frontend http_front
-bind *:80
-stats uri /haproxy?stats
-default_backend http_back
+    bind *:80
+    stats uri /haproxy?stats
+    default_backend http_back
 
 backend http_back
-balance roundrobin
-server web-01 3.90.81.255:80 check
-server web02 34.227.90.8:80 check
+    balance roundrobin
+    server web-01 3.90.81.255:80 check
+    server web-02 34.227.90.8:80 check
 EOF
 
 # Restarting HAProxy to apply the new configuration
 sudo systemctl restart haproxy
+
 echo "HAProxy has been successfully configured to load balance between $WEB_01 and $WEB_02 using round robin algorithm."
-backend http_back
+
