@@ -1,2 +1,57 @@
-#!/usr/bin/env bash                                                                # Script to install and configure Nginx with a custom header                                                                                                          # Update package list and install Nginx                                            sudo apt-get update                                                                if ! sudo apt-get -y install nginx; then                                           echo "Failed to install Nginx."                                                    exit 1                                                                             fi                                                                                                                                                                    # Allow HTTP traffic if UFW (Uncomplicated Firewall) is active                     if sudo ufw status | grep -qw active; then                                         sudo ufw allow "Nginx HTTP"                                                        fi                                                                                                                                                                    # Creating directories and set permissions                                         sudo mkdir -p /var/www/html /var/www/error                                         sudo chmod -R 755 /var/www                                                                                                                                            # Set up basic HTML and custom error pages                                         echo "Hello World!" | sudo tee /var/www/html/index.html >/dev/null                 echo "Ceci n'est pas une page" | sudo tee /var/www/error/404.html >/dev/null                                                                                          # Defining server configuration with dynamic hostname retrieval for the custom header                                                                                 SERVER_CONFIG=$(cat <<EOF                                                          server {                                                                           listen 80 default_server;                                                          listen [::]:80 default_server;                                                     root /var/www/html;                                                                index index.html index.htm index.nginx-debian.html;                                server_name _;                                                                                                                                                        location / {                                                                       try_files \$uri \$uri/ =404;                                                       add_header X-Served-By \$hostname always;                                          }                                      
-                                                                                   location = /404.html {                                                             root /var/www/error/;                                                              internal;                                                                          add_header X-Served-By \$hostname always;                                          }                                                                                                                                                                     error_page 404 /404.html;                                                          }                                                                                  EOF                                                                                )                                                                                                                                                                     # Apply the Nginx configuration                                                    echo "$SERVER_CONFIG" | sudo tee /etc/nginx/sites-available/default >/dev/null     sudo ln -sf /etc/nginx/sites-available/default /etc/nginx/sites-enabled/                                                                                              # Restart Nginx to apply the new configuration                                     if ! sudo systemctl restart nginx; then                                            echo "Failed to restart Nginx."                                                    exit 1                                                                             fi                                                                                                                                                                    echo "Nginx has been successfully configured."                                                       
+#!/usr/bin/env bash
+# Script to install and configure Nginx with a custom header
+
+# Update package list and install Nginx
+sudo apt-get update
+if ! sudo apt-get -y install nginx; then
+	echo "Failed to install Nginx."
+	exit 1
+fi
+
+# Allow HTTP traffic if UFW (Uncomplicated Firewall) is active
+if sudo ufw status | grep -qw active; then
+	sudo ufw allow "Nginx HTTP"
+fi
+
+# Creating directories and set permissions
+sudo mkdir -p /var/www/html /var/www/error
+sudo chmod -R 755 /var/www
+
+# Set up basic HTML and custom error pages
+echo "Hello World!" | sudo tee /var/www/html/index.html >/dev/null
+echo "Ceci n'est pas une page" | sudo tee /var/www/error/404.html >/dev/null      
+
+# Defining server configuration with dynamic hostname retrieval for the custom header
+SERVER_CONFIG=$(cat <<EOF
+server {
+listen 80 default_server;
+listen [::]:80 default_server;
+root /var/www/html;
+index index.html index.htm index.nginx-debian.html;
+server_name _;
+location / {
+try_files \$uri \$uri/ =404;
+add_header X-Served-By \$hostname always;
+
+location = /404.html {
+root /var/www/error/;
+internal;
+add_header X-Served-By \$hostname always;
+}
+
+error_page 404 /404.html;
+}
+EOF
+)
+
+# Apply the Nginx configuration
+echo "$SERVER_CONFIG" | sudo tee /etc/nginx/sites-available/default >/dev/null
+sudo ln -sf /etc/nginx/sites-available/default /etc/nginx/sites-enabled/
+
+# Restart Nginx to apply the new configuration
+if ! sudo systemctl restart nginx; then
+	echo "Failed to restart Nginx."
+	exit 1
+	fi
+	echo "Nginx has been successfully configured."
+
