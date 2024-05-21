@@ -1,6 +1,11 @@
+<<<<<<< HEAD
 Error: 'listen 80 default_server;' is missing or misconfigured in /etc/nginx/sites-enabled/default
 Updating the configuration to bind port 80 to all IPv4 addresses...
 ERROR: problem running iptables: iptables v1.8.7 (legacy): can't initialize iptables table `filter': Table does not exist (do you need to insmod?)
 Perhaps iptables or your kernel needs to be upgraded.
 
 
+=======
+Error: Another web server like Apache is active and using port 80
+Stopping Apache service...
+>>>>>>> d1c41f1e6ed7441e031fd6045c5cdc497108da03
