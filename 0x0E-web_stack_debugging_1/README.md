@@ -1,4 +1,10 @@
+<<<<<<< HEAD
+#0x0E. Web stack debugging #1
+
+##Requirements
+=======
 Requirements
+>>>>>>> d1c41f1e6ed7441e031fd6045c5cdc497108da03
 General
 Allowed editors: vi, vim, emacs
 All your files will be interpreted on Ubuntu 20.04 LTS
@@ -10,6 +16,8 @@ Your Bash scripts must run without error
 The first line of all your Bash scripts should be exactly #!/usr/bin/env bash
 The second line of all your Bash scripts should be a comment explaining what is the script doing
 You are not allowed to use wget
+<<<<<<< HEAD
+=======
 Tasks
 0. Nginx likes port 80
 mandatory
@@ -109,3 +117,4 @@ root@966c5664b21f:/#
 root@966c5664b21f:/# service nginx status
  * nginx is not running
 root@966c5664b21f:/# 
+>>>>>>> d1c41f1e6ed7441e031fd6045c5cdc497108da03

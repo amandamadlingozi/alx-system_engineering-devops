@@ -1,0 +1,510 @@
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=3 /* 0.03 s */, tms_cutime=0, tms_cstime=0}) = 26374016
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=3 /* 0.03 s */, tms_cutime=0, tms_cstime=0}) = 26374116
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=3 /* 0.03 s */, tms_cutime=0, tms_cstime=0}) = 26374217
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=3 /* 0.03 s */, tms_cutime=0, tms_cstime=0}) = 26374317
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=3 /* 0.03 s */, tms_cutime=0, tms_cstime=0}) = 26374417
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=3 /* 0.03 s */, tms_cutime=0, tms_cstime=0}) = 26374518
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=3 /* 0.03 s */, tms_cutime=0, tms_cstime=0}) = 26374618
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=3 /* 0.03 s */, tms_cutime=0, tms_cstime=0}) = 26374718
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=3 /* 0.03 s */, tms_cutime=0, tms_cstime=0}) = 26374819
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=3 /* 0.03 s */, tms_cutime=0, tms_cstime=0}) = 26374919
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=3 /* 0.03 s */, tms_cutime=0, tms_cstime=0}) = 26375020
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=3 /* 0.03 s */, tms_cutime=0, tms_cstime=0}) = 26375120
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=3 /* 0.03 s */, tms_cutime=0, tms_cstime=0}) = 26375220
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=3 /* 0.03 s */, tms_cutime=0, tms_cstime=0}) = 26375320
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=3 /* 0.03 s */, tms_cutime=0, tms_cstime=0}) = 26375421
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=3 /* 0.03 s */, tms_cutime=0, tms_cstime=0}) = 26375521
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=3 /* 0.03 s */, tms_cutime=0, tms_cstime=0}) = 26375621
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=3 /* 0.03 s */, tms_cutime=0, tms_cstime=0}) = 26375721
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=3 /* 0.03 s */, tms_cutime=0, tms_cstime=0}) = 26375821
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=3 /* 0.03 s */, tms_cutime=0, tms_cstime=0}) = 26375922
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=3 /* 0.03 s */, tms_cutime=0, tms_cstime=0}) = 26376022
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=3 /* 0.03 s */, tms_cutime=0, tms_cstime=0}) = 26376122
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=3 /* 0.03 s */, tms_cutime=0, tms_cstime=0}) = 26376223
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=3 /* 0.03 s */, tms_cutime=0, tms_cstime=0}) = 26376323
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=3 /* 0.03 s */, tms_cutime=0, tms_cstime=0}) = 26376423
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=3 /* 0.03 s */, tms_cutime=0, tms_cstime=0}) = 26376524
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=3 /* 0.03 s */, tms_cutime=0, tms_cstime=0}) = 26376624
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=3 /* 0.03 s */, tms_cutime=0, tms_cstime=0}) = 26376724
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=3 /* 0.03 s */, tms_cutime=0, tms_cstime=0}) = 26376824
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=3 /* 0.03 s */, tms_cutime=0, tms_cstime=0}) = 26376925
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=3 /* 0.03 s */, tms_cutime=0, tms_cstime=0}) = 26377025
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=3 /* 0.03 s */, tms_cutime=0, tms_cstime=0}) = 26377125
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=3 /* 0.03 s */, tms_cutime=0, tms_cstime=0}) = 26377225
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=3 /* 0.03 s */, tms_cutime=0, tms_cstime=0}) = 26377326
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=3 /* 0.03 s */, tms_cutime=0, tms_cstime=0}) = 26377426
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=3 /* 0.03 s */, tms_cutime=0, tms_cstime=0}) = 26377526
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=3 /* 0.03 s */, tms_cutime=0, tms_cstime=0}) = 26377626
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=3 /* 0.03 s */, tms_cutime=0, tms_cstime=0}) = 26377726
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=3 /* 0.03 s */, tms_cutime=0, tms_cstime=0}) = 26377827
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=3 /* 0.03 s */, tms_cutime=0, tms_cstime=0}) = 26377927
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=3 /* 0.03 s */, tms_cutime=0, tms_cstime=0}) = 26378027
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=3 /* 0.03 s */, tms_cutime=0, tms_cstime=0}) = 26378127
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=3 /* 0.03 s */, tms_cutime=0, tms_cstime=0}) = 26378227
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=3 /* 0.03 s */, tms_cutime=0, tms_cstime=0}) = 26378328
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=3 /* 0.03 s */, tms_cutime=0, tms_cstime=0}) = 26378428
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=3 /* 0.03 s */, tms_cutime=0, tms_cstime=0}) = 26378528
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=3 /* 0.03 s */, tms_cutime=0, tms_cstime=0}) = 26378628
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=3 /* 0.03 s */, tms_cutime=0, tms_cstime=0}) = 26378728
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=3 /* 0.03 s */, tms_cutime=0, tms_cstime=0}) = 26378828
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=3 /* 0.03 s */, tms_cutime=0, tms_cstime=0}) = 26378929
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=3 /* 0.03 s */, tms_cutime=0, tms_cstime=0}) = 26379029
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=3 /* 0.03 s */, tms_cutime=0, tms_cstime=0}) = 26379129
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=3 /* 0.03 s */, tms_cutime=0, tms_cstime=0}) = 26379229
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=3 /* 0.03 s */, tms_cutime=0, tms_cstime=0}) = 26379329
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=3 /* 0.03 s */, tms_cutime=0, tms_cstime=0}) = 26379429
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=3 /* 0.03 s */, tms_cutime=0, tms_cstime=0}) = 26379530
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=3 /* 0.03 s */, tms_cutime=0, tms_cstime=0}) = 26379630
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=3 /* 0.03 s */, tms_cutime=0, tms_cstime=0}) = 26379730
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=3 /* 0.03 s */, tms_cutime=0, tms_cstime=0}) = 26379830
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=3 /* 0.03 s */, tms_cutime=0, tms_cstime=0}) = 26379930
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=3 /* 0.03 s */, tms_cutime=0, tms_cstime=0}) = 26380031
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=3 /* 0.03 s */, tms_cutime=0, tms_cstime=0}) = 26380131
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=3 /* 0.03 s */, tms_cutime=0, tms_cstime=0}) = 26380231
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=3 /* 0.03 s */, tms_cutime=0, tms_cstime=0}) = 26380331
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=3 /* 0.03 s */, tms_cutime=0, tms_cstime=0}) = 26380431
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=3 /* 0.03 s */, tms_cutime=0, tms_cstime=0}) = 26380531
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=3 /* 0.03 s */, tms_cutime=0, tms_cstime=0}) = 26380631
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=3 /* 0.03 s */, tms_cutime=0, tms_cstime=0}) = 26380732
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=3 /* 0.03 s */, tms_cutime=0, tms_cstime=0}) = 26380832
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=3 /* 0.03 s */, tms_cutime=0, tms_cstime=0}) = 26380935
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=3 /* 0.03 s */, tms_cutime=0, tms_cstime=0}) = 26381035
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=3 /* 0.03 s */, tms_cutime=0, tms_cstime=0}) = 26381135
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=3 /* 0.03 s */, tms_cutime=0, tms_cstime=0}) = 26381235
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=3 /* 0.03 s */, tms_cutime=0, tms_cstime=0}) = 26381335
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=3 /* 0.03 s */, tms_cutime=0, tms_cstime=0}) = 26381435
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=3 /* 0.03 s */, tms_cutime=0, tms_cstime=0}) = 26381536
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=3 /* 0.03 s */, tms_cutime=0, tms_cstime=0}) = 26381636
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=3 /* 0.03 s */, tms_cutime=0, tms_cstime=0}) = 26381736
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=3 /* 0.03 s */, tms_cutime=0, tms_cstime=0}) = 26381836
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=3 /* 0.03 s */, tms_cutime=0, tms_cstime=0}) = 26381936
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=3 /* 0.03 s */, tms_cutime=0, tms_cstime=0}) = 26382037
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=3 /* 0.03 s */, tms_cutime=0, tms_cstime=0}) = 26382137
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=3 /* 0.03 s */, tms_cutime=0, tms_cstime=0}) = 26382237
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=3 /* 0.03 s */, tms_cutime=0, tms_cstime=0}) = 26382337
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=3 /* 0.03 s */, tms_cutime=0, tms_cstime=0}) = 26382437
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=3 /* 0.03 s */, tms_cutime=0, tms_cstime=0}) = 26382538
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=3 /* 0.03 s */, tms_cutime=0, tms_cstime=0}) = 26382638
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=3 /* 0.03 s */, tms_cutime=0, tms_cstime=0}) = 26382738
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=3 /* 0.03 s */, tms_cutime=0, tms_cstime=0}) = 26382838
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=3 /* 0.03 s */, tms_cutime=0, tms_cstime=0}) = 26382939
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=3 /* 0.03 s */, tms_cutime=0, tms_cstime=0}) = 26383039
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=3 /* 0.03 s */, tms_cutime=0, tms_cstime=0}) = 26383139
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=3 /* 0.03 s */, tms_cutime=0, tms_cstime=0}) = 26383239
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=3 /* 0.03 s */, tms_cutime=0, tms_cstime=0}) = 26383340
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=3 /* 0.03 s */, tms_cutime=0, tms_cstime=0}) = 26383440
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=3 /* 0.03 s */, tms_cutime=0, tms_cstime=0}) = 26383540
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=3 /* 0.03 s */, tms_cutime=0, tms_cstime=0}) = 26383640
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=4 /* 0.04 s */, tms_cutime=0, tms_cstime=0}) = 26383741
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=4 /* 0.04 s */, tms_cutime=0, tms_cstime=0}) = 26383841
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=4 /* 0.04 s */, tms_cutime=0, tms_cstime=0}) = 26383941
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=4 /* 0.04 s */, tms_cutime=0, tms_cstime=0}) = 26384041
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=4 /* 0.04 s */, tms_cutime=0, tms_cstime=0}) = 26384141
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=4 /* 0.04 s */, tms_cutime=0, tms_cstime=0}) = 26384242
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=4 /* 0.04 s */, tms_cutime=0, tms_cstime=0}) = 26384342
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=4 /* 0.04 s */, tms_cutime=0, tms_cstime=0}) = 26384442
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=4 /* 0.04 s */, tms_cutime=0, tms_cstime=0}) = 26384542
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=4 /* 0.04 s */, tms_cutime=0, tms_cstime=0}) = 26384642
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=4 /* 0.04 s */, tms_cutime=0, tms_cstime=0}) = 26384743
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=4 /* 0.04 s */, tms_cutime=0, tms_cstime=0}) = 26384843
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=4 /* 0.04 s */, tms_cutime=0, tms_cstime=0}) = 26384943
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=4 /* 0.04 s */, tms_cutime=0, tms_cstime=0}) = 26385043
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=4 /* 0.04 s */, tms_cutime=0, tms_cstime=0}) = 26385144
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=4 /* 0.04 s */, tms_cutime=0, tms_cstime=0}) = 26385244
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=4 /* 0.04 s */, tms_cutime=0, tms_cstime=0}) = 26385344
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=4 /* 0.04 s */, tms_cutime=0, tms_cstime=0}) = 26385444
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=4 /* 0.04 s */, tms_cutime=0, tms_cstime=0}) = 26385544
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=4 /* 0.04 s */, tms_cutime=0, tms_cstime=0}) = 26385645
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=4 /* 0.04 s */, tms_cutime=0, tms_cstime=0}) = 26385745
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=4 /* 0.04 s */, tms_cutime=0, tms_cstime=0}) = 26385845
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=4 /* 0.04 s */, tms_cutime=0, tms_cstime=0}) = 26385945
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=4 /* 0.04 s */, tms_cutime=0, tms_cstime=0}) = 26386046
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=4 /* 0.04 s */, tms_cutime=0, tms_cstime=0}) = 26386146
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=4 /* 0.04 s */, tms_cutime=0, tms_cstime=0}) = 26386246
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=4 /* 0.04 s */, tms_cutime=0, tms_cstime=0}) = 26386346
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=4 /* 0.04 s */, tms_cutime=0, tms_cstime=0}) = 26386447
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=4 /* 0.04 s */, tms_cutime=0, tms_cstime=0}) = 26386547
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=4 /* 0.04 s */, tms_cutime=0, tms_cstime=0}) = 26386647
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=4 /* 0.04 s */, tms_cutime=0, tms_cstime=0}) = 26386748
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=4 /* 0.04 s */, tms_cutime=0, tms_cstime=0}) = 26386848
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=4 /* 0.04 s */, tms_cutime=0, tms_cstime=0}) = 26386948
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=4 /* 0.04 s */, tms_cutime=0, tms_cstime=0}) = 26387048
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=4 /* 0.04 s */, tms_cutime=0, tms_cstime=0}) = 26387148
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=4 /* 0.04 s */, tms_cutime=0, tms_cstime=0}) = 26387249
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=4 /* 0.04 s */, tms_cutime=0, tms_cstime=0}) = 26387349
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=4 /* 0.04 s */, tms_cutime=0, tms_cstime=0}) = 26387449
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=4 /* 0.04 s */, tms_cutime=0, tms_cstime=0}) = 26387549
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=4 /* 0.04 s */, tms_cutime=0, tms_cstime=0}) = 26387649
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=4 /* 0.04 s */, tms_cutime=0, tms_cstime=0}) = 26387749
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=4 /* 0.04 s */, tms_cutime=0, tms_cstime=0}) = 26387850
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=4 /* 0.04 s */, tms_cutime=0, tms_cstime=0}) = 26387950
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=4 /* 0.04 s */, tms_cutime=0, tms_cstime=0}) = 26388050
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=4 /* 0.04 s */, tms_cutime=0, tms_cstime=0}) = 26388150
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=4 /* 0.04 s */, tms_cutime=0, tms_cstime=0}) = 26388251
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=4 /* 0.04 s */, tms_cutime=0, tms_cstime=0}) = 26388351
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=4 /* 0.04 s */, tms_cutime=0, tms_cstime=0}) = 26388451
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=4 /* 0.04 s */, tms_cutime=0, tms_cstime=0}) = 26388551
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=4 /* 0.04 s */, tms_cutime=0, tms_cstime=0}) = 26388652
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=4 /* 0.04 s */, tms_cutime=0, tms_cstime=0}) = 26388752
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=4 /* 0.04 s */, tms_cutime=0, tms_cstime=0}) = 26388853
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=4 /* 0.04 s */, tms_cutime=0, tms_cstime=0}) = 26388953
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=4 /* 0.04 s */, tms_cutime=0, tms_cstime=0}) = 26389053
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=4 /* 0.04 s */, tms_cutime=0, tms_cstime=0}) = 26389154
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=4 /* 0.04 s */, tms_cutime=0, tms_cstime=0}) = 26389254
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=4 /* 0.04 s */, tms_cutime=0, tms_cstime=0}) = 26389354
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=4 /* 0.04 s */, tms_cutime=0, tms_cstime=0}) = 26389454
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=4 /* 0.04 s */, tms_cutime=0, tms_cstime=0}) = 26389555
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=4 /* 0.04 s */, tms_cutime=0, tms_cstime=0}) = 26389655
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=4 /* 0.04 s */, tms_cutime=0, tms_cstime=0}) = 26389755
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=4 /* 0.04 s */, tms_cutime=0, tms_cstime=0}) = 26389855
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=4 /* 0.04 s */, tms_cutime=0, tms_cstime=0}) = 26389956
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=4 /* 0.04 s */, tms_cutime=0, tms_cstime=0}) = 26390056
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=4 /* 0.04 s */, tms_cutime=0, tms_cstime=0}) = 26390156
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=4 /* 0.04 s */, tms_cutime=0, tms_cstime=0}) = 26390256
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=4 /* 0.04 s */, tms_cutime=0, tms_cstime=0}) = 26390357
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=4 /* 0.04 s */, tms_cutime=0, tms_cstime=0}) = 26390457
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=4 /* 0.04 s */, tms_cutime=0, tms_cstime=0}) = 26390557
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=4 /* 0.04 s */, tms_cutime=0, tms_cstime=0}) = 26390657
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=4 /* 0.04 s */, tms_cutime=0, tms_cstime=0}) = 26390758
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=4 /* 0.04 s */, tms_cutime=0, tms_cstime=0}) = 26390858
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+wait4(-1, 0x7ffff1a21644, WNOHANG|WSTOPPED, NULL) = 0
+times({tms_utime=1 /* 0.01 s */, tms_stime=4 /* 0.04 s */, tms_cutime=0, tms_cstime=0}) = 26390958
+pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL <detached ...>
