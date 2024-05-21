@@ -1,35 +1,16 @@
 #!/usr/bin/env bash
 
 # Display information about a subdomain
-display_subdomain_info() {
-subdomain="$1"
-domain="$2"
-dig_output=$(dig "$subdomain.$domain" | awk '/^;; ANSWER SECTION:$/,/^$/')
-record_type=$(echo "$dig_output" | awk '/IN\s+\w+\s+[^ ]+$/ {print $4}')
-destination=$(echo "$dig_output" | awk '/IN\s+\w+\s+[^ ]+$/ {print $5}')
-echo "The subdomain $subdomain is a $record_type record and points to $destination"
+print_domain_subdomain () {
+	dig "$1" | grep -A1 'ANSWER SECTION:' | sed -r "s/$1./$2/g" | awk -F" " ' NR==2 { print "The subdomain " $1 " is a " $4 " record and points to " $5 }'
 }
 
-# Main function
-main() {
-domain="$1"
-subdomain="$2"
-
-if [ -z "$subdomain" ]; then
-subdomains=("www" "lb-01" "web-01" "web-02")
-for sub in "${subdomains[@]}"; do
-display_subdomain_info "$sub" "$domain"
-done
+if [ "$#" -eq 2 ]
+then
+	print_domain_subdomain "$2.$1" "$2"
 else
-display_subdomain_info "$subdomain" "$domain"
+	print_domain_subdomain "www.$1" "www"
+	print_domain_subdomain "lb-01.$1" "lb-01"
+	print_domain_subdomain "web-01.$1" "web-01"
+	print_domain_subdomain "web-02.$1" "web-02"
 fi
-}
-
-# Checking if domain argument is provided
-if [ "$#" -lt 1 ]; then
-echo "Usage: $0 <domain> [subdomain]"
-exit 1
-fi
-
-main "$@"
-
