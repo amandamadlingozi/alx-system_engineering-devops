@@ -1,0 +1,35 @@
+#!/usr/bin/env bash
+
+# Display information about a subdomain
+display_subdomain_info() {
+subdomain="$1"
+domain="$2"
+dig_output=$(dig "$subdomain.$domain" | awk '/^;; ANSWER SECTION:$/,/^$/')
+record_type=$(echo "$dig_output" | awk '/IN\s+\w+\s+[^ ]+$/ {print $4}')
+destination=$(echo "$dig_output" | awk '/IN\s+\w+\s+[^ ]+$/ {print $5}')
+echo "The subdomain $subdomain is a $record_type record and points to $destination"
+}
+
+# Main function
+main() {
+domain="$1"
+subdomain="$2"
+
+if [ -z "$subdomain" ]; then
+subdomains=("www" "lb-01" "web-01" "web-02")
+for sub in "${subdomains[@]}"; do
+display_subdomain_info "$sub" "$domain"
+done
+else
+display_subdomain_info "$subdomain" "$domain"
+fi
+}
+
+# Checking if domain argument is provided
+if [ "$#" -lt 1 ]; then
+echo "Usage: $0 <domain> [subdomain]"
+exit 1
+fi
+
+main "$@"
+
