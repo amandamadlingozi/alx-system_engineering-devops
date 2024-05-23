@@ -1,43 +1,38 @@
 #!/usr/bin/env bash
 # This script configures a new Ubuntu machine by installing Nginx
 # and setting it up to listen on port 80, serve a Hello World page,
-# and redirect /redirect_me to a specific YouTube video with a 301 Moved Permanently status.
+# and redirect /redirect_me to  YouTube.
 
-echo "Updating package lists and installing Nginx..."
-sudo apt-get update -qq && sudo apt-get install -y nginx
 
-# Verifying if Nginx installed correctly
-if ! command -v nginx &> /dev/null; then
-	    echo "Failed to install Nginx."
-	        exit 1
-fi
 
-echo "Starting and configuring Nginx..."
+echo -e "Updating and installing Nginx.\n"
+sudo apt-get update -y -qq && \
+         sudo apt-get install nginx -y
 
-# Starting Nginx to ensure it's running before modifying files
+echo -e "\nSetting up some minor stuff.\n"
+
+# starting nginx service
 sudo service nginx start
 
-# Allowing Nginx through the firewall
+# allowing nginx on firewall
 sudo ufw allow 'Nginx HTTP'
 
-# Change ownership of the HTML directory to the current user for easier editing
+# Give the user ownership to website files for easy editing
 sudo chown -R "$USER":"$USER" /var/www/html
-sudo chmod -R 755 /var/www/html
+sudo chmod -R 755 /var/www
 
-# Backup the original index file and create a new Hello World page
-sudo cp /var/www/html/index.nginx-debian.html /var/www/html/index.nginx-debian.html.bckp
-echo "Hello World!" | sudo tee /var/www/html/index.nginx-debian.html > /dev/null
+# Backup default index
+cp /var/www/html/index.nginx-debian.html /var/www/html/index.nginx-debian.html.bckp
 
-# Inserting the rewrite rule for redirection
-# Ensures that the rewrite rule is added correctly
-if ! sudo sed -i '/server_name _;/a \    rewrite ^/redirect_me$ https://www.youtube.com/watch?v=QH2-TGUlwu4 permanent;' /etc/nginx/sites-available/default; then
-	    echo "Failed to insert rewrite rule."
-	        exit 1
-fi
+# Creating new index
+echo -e "Hello World!" > /var/www/html/index.nginx-debian.html
 
-# Restarting Nginx to apply changes
-echo "Restarting Nginx..."
+# Setting up /redirect_me to a youtube video
+sudo sed -i '24i\       rewrite ^/redirect_me https://www.youtube.com/watch?v=QH2-TGUlwu4 permanent;' /etc/nginx/sites-available/default
+
+# Restarting nginx
 sudo service nginx restart
 
-echo "Nginx has been configured successfully."
+echo -e "\nCompleted.\n"
+
 
