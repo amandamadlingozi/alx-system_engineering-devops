@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # Script to transfer a file to a remote server
 
 if [ $# -lt 4 ]
